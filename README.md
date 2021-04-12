@@ -59,6 +59,6 @@ getchannelcreation
     Gets all available information about the added Boltz Channel Creation Swap
 ```
 
-`add-channel-creation` tells the plugin to create an invoice for a Channel Creation Swap. `invoice_amount` is the amount of the invoice to be created in **millisatoshis**, `inbound_percentage` is the desired percentage of inbound liquidity Boltz should provide in the channel and `private` tells the plugin whether the channel Boltz opens should be private (default is `false`).
+`add-channel-creation` tells the plugin to create an invoice for a Channel Creation Swap. `invoice_amount` is the amount of the invoice to be created in **millisatoshis**, `inbound_percentage` is the desired percentage of inbound liquidity Boltz should provide (maximum is 50%) in the channel and `private` tells the plugin whether the channel Boltz opens should be private (default is `false`).
 
 `get-channel-creation` allows you to query the status of the Channel Creation Swap.
